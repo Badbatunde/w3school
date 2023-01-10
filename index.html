@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Apply JavaScript example</title>
-  </head>
-  <body>
-    <button>Click me</button>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w3</title>
+</head>
+<body>
+    <h1>my first webpage</h1>
+    <p>my first paragraph</p>
+    <p id="demo"></p>
+    <p id="weather"></p>
+    <p id="time"></p>
+    <p id="literal"></p>
+    <p id="points"></p>
+    <button onclick="document.getElementById('time').innerHTML = Date()">the time is?</button>
+    <button onclick="this.innerHTML = Date()">what time is it?</button>
+    <button onclick="displayDate()" id="button">the time is?</button>
+    <button onclick="sortAlpha()">sort alphabetically</button>
+    <button onclick="sortNum()">sort numerically</button>
     <script src="index.js"></script>
-  </body>
+</body>
 </html>
