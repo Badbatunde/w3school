@@ -370,3 +370,10 @@ texts += x;
 }
 
 console.log(texts)
+
+// JS scope
+// JavaScript has 3 types of scope:
+// Block scope
+// Function scope
+// Global scope
+
