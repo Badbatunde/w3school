@@ -377,3 +377,13 @@ console.log(texts)
 // Function scope
 // Global scope
 
+// JavaScript defines 7 types of primitive data types:
+
+// Examples
+// string
+// number
+// boolean
+// null
+// undefined
+// symbol
+// bigint
