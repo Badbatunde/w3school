@@ -395,3 +395,27 @@ function myFunction(a, b) {
 
 let textz = myFunction.toString();
 console.log(textz)
+
+function sum(...args) {
+  let sum = 0;
+  for (let arg of args) sum += arg;
+  return sum;
+}
+
+let f = sum(4, 9, 16, 25, 29, 100, 66, 77);
+console.log(f)
+
+// This way you can simply use a function to find (for instance) the highest value in a list of numbers:
+x = findMax(1, 123, 500, 115, 44, 88);
+
+function findMax() {
+  let max = -Infinity;
+  for (let i = 0; i < arguments.length; i++) {
+    if (arguments[i] > max) {
+      max = arguments[i];
+    }
+  }
+  return max;
+}
+
+console.log(x)
