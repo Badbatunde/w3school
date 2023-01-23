@@ -387,3 +387,11 @@ console.log(texts)
 // undefined
 // symbol
 // bigint
+
+// The toString() method returns the function as a string:
+function myFunction(a, b) {
+  return a * b;
+}
+
+let textz = myFunction.toString();
+console.log(textz)
