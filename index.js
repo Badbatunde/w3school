@@ -406,7 +406,7 @@ let f = sum(4, 9, 16, 25, 29, 100, 66, 77);
 console.log(f)
 
 // This way you can simply use a function to find (for instance) the highest value in a list of numbers:
-x = findMax(1, 123, 500, 115, 44, 88);
+let g = findMax(1, 123, 500, 115, 44, 88);
 
 function findMax() {
   let max = -Infinity;
@@ -418,4 +418,4 @@ function findMax() {
   return max;
 }
 
-console.log(x)
+console.log(g)
